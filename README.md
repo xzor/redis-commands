@@ -17,6 +17,7 @@ $ npm install redis-commands
 1. You need at least the BETA version of redis `4.0-rc2`
 2. Start redis with `redis-server --loadmodule /path/to/module.so`
 3. CLI redis and dump avaliable commands with `COMMAND`
+4. add to `commands.json`
 
 ```javascript
 //example usage in redis.io
