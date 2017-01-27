@@ -9,6 +9,113 @@
     "keyStop": 1,
     "step": 1
   },
+  
+  "ft.sugdel": {
+    "arity": -1,
+    "flags": [
+      "write"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.addhash": {
+    "arity": -1,
+    "flags": [
+      "write",
+    "denyroom"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.suglen": {
+    "arity": -1,
+    "flags": [
+    "readonly"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.sugadd": {
+    "arity": -1,
+    "flags": [
+    "write"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.add": {
+    "arity": -1,
+    "flags": [
+    "write",
+    "denyroom"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.drop": {
+    "arity": -1,
+    "flags": [
+    "write"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.sugget": {
+    "arity": -1,
+    "flags": [
+    "readonly"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+   "ft.optimize": {
+    "arity": -1,
+    "flags": [
+    "write"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.create": {
+    "arity": -1,
+    "flags": [
+    "write"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  "ft.search": {
+    "arity": -1,
+    "flags": [
+      "readonly",
+      "denyoom"
+    ],
+    "keyStart": 1,
+    "keyStop": 1,
+    "step": 1
+  },
+  
+  
+  
+  
   "asking": {
     "arity": 1,
     "flags": [
