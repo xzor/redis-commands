@@ -26,6 +26,7 @@ redis.pipeline([
     ['ft.create', 'products', 'name', 10.0, 'description', 1.0, 'price', 'NUMERIC'],
     ['ft.add',  'products',  'skor', 1.0, 'FIELDS', 'name', 'Acme 40-Inch 1080p LED TV', 'description',  'Enjoy enhanced color and clarity with stunning Full HD 1080p', 'price', 277.99],
 ]).exec(function(err, res) { 
+    // null if success
 });
 ```
 
