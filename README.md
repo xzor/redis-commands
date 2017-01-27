@@ -1,4 +1,4 @@
-# Redis Commands
+# Redis Commands (with module support)
 
 [![Build Status](https://travis-ci.org/NodeRedis/redis-commands.png?branch=master)](https://travis-ci.org/NodeRedis/redis-commands)
 [![Code Climate](https://codeclimate.com/github/NodeRedis/redis-commands/badges/gpa.svg)](https://codeclimate.com/github/NodeRedis/redis-commands)
